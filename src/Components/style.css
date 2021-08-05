@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    /* flex: 0.1; */
+    flex-grow: 1;
+    height: 100vh;
+    background-color: white;
+
+}
+.Items{
+    padding: 20px;
+}
+
+/* main-style */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #E5E5E5;
+   
+    
+}
+.navbar{
+    background-color: #3F0E40;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+.info_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+.content{
+    padding: 30px;
+    flex-grow: 1;
+    margin: 20px;
+}
+table{
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 10px 15px #888888;
+    border-spacing: 13px;
+    font-size: 1.2rem;
+}
+/* table>td{
+    padding: 5px;
+} */
+/* tr:nth-child(odd){
+    background-color: whitesmoke; */
+
+
+tr{
+    text-align: center;
+    padding: 10px !important;
+}
+
+.search_div{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 70px;
+    
+
+}
+.search_div span{
+    display: inline-flex;
+    vertical-align: middle;
+}
+input{
+    border: none;
+    padding: 5px;
+    
+}
+.item_active{
+    background-color:#3F0E40;
+    color: white;
+}
+.table_info_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    letter-spacing: 1.2px;
+}
+.keywords{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.submit{
+    height: 38px;
+    width: 347px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.item_head{
+    font-size: larger;
+    padding: 21px;
+
+}
+.Items span{
+    margin-right: 20px;
+    /* margin-top: 15px; */
+    display: inline-flex;
+    vertical-align: middle;
+}
+.Items p{
+    font-size: 1.1rem;
+    line-height: 25px;
+}
+.View_btn{
+   display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.navbar span{
+    background-color: white;
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+
+
+
